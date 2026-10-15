@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(225, 248, 255);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.gambar_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+p {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: beige;
+    border: 1px solid brown;
+    border-radius: 3px;
+    color:maroon;
+    padding: 10px 20px;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(42, 112, 165), rgb(249, 247, 239));
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: 20px;
+    padding: 20px 0;
+    color: white;
+}
+
+.link {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 20px auto 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(0, 68, 255);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: background-color 0.3s ease;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.link:hover {
+    background-color: rgb(33, 12, 255);
+    transform: scale(1.05);
+}
+
