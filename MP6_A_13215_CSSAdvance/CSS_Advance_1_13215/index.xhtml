@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Member GYM</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1>Formulir Pendaftaran Member GYM</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <table cellspacing="4" cellpadding="4" border="1" style="border-collapse:collapse; width: 100%;">
+
+            <tr>
+                <td>
+                    <label for="namamhs"><strong>Nama Lengkap</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="namamhs" name="namamhs" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <strong>Jenis Kelamin</strong>
+                </td>
+                <td>
+                    <input type="radio" id="laki" name="jk" value="Laki-Laki" /><label for="laki">Pria</label>
+                    <input type="radio" id="perempuan" name="jk" value="Perempuan" /><label for="perempuan">Wanita</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="prodi"><strong>Pilihan Durasi Membership</strong></label>
+                </td>
+                <td>
+                    <select id="prodi" name="prodi">
+                        <option>1 Bulan</option>
+                        <option>3 Bulan</option>
+                        <option>6 Bulan</option>
+                        <option>1 Tahun</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="email"><strong>Buat Akun Member</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="email" name="email" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="password"><strong>Kata Sandi Akun</strong></label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="telepon"><strong>Nomor Telepon / WhatsApp</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="telepon" name="telepon" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="photo"><strong>Unggah Bukti Pembayaran</strong></label>
+                </td>
+                <td>
+                    <input type="file" id="photo" name="photo" size="18" accept="image/gif, image/jpeg, image/png" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="namasmu"><strong>Asal Daerah</strong></label>
+                </td>
+                <td>
+                    <input type="text" id="namasmu" name="namasmu" size="30" />
+                </td>
+            </tr>
+
+            <tr>
+                <td style="vertical-align: top;">
+                    <strong>Target &amp; Minat</strong>
+                </td>
+                <td>
+                    <p>
+                        <strong>Target</strong><br />
+                        <input type="checkbox" id="musik1" name="musik" value="Pop" />
+                        <label for="musik1">Fat Loss</label>
+                        <input type="checkbox" id="musik2" name="musik" value="Rock" />
+                        <label for="musik2">Muscle Building</label>
+                        <input type="checkbox" id="musik3" name="musik" value="Jazz" />
+                        <label for="musik3">Body Shaping</label>
+                    </p>
+
+                    <p>
+                        <strong>Minat</strong><br />
+                        <input type="checkbox" id="film1" name="film" value="Drama" />
+                        <label for="film1">Weight Training</label>
+                        <input type="checkbox" id="film2" name="film" value="Action" />
+                        <label for="film2">Cardio</label>
+                        <input type="checkbox" id="film3" name="film" value="Sci-Fi" />
+                        <label for="film3">Kelas Studio (Pilates)</label>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="vertical-align: top;">
+                    <label for="resume"><strong>Tulis Tekad &amp; Deskripsi Diri</strong></label>
+                </td>
+                <td>
+                    <textarea id="resume" name="resume" rows="10" cols="23"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:center;">
+                    <input type="submit" name="simpan" value="Daftar Sekarang" />
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>

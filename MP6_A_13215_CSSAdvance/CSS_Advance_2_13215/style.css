@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F3E9DC;
+    color: #2d3748;
+    margin: 0;
+    padding: 30px 15px;
+    background-image: url('background.png'); 
+    background-position: center;             
+    background-size: cover;                  
+    background-repeat: no-repeat;             
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: #fbeee7;
+    font-size: 46px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+form {
+    max-width: 660px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px 35px 30px 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    border-top: 5px solid #C75D2C;
+}
+
+h3 {
+    color: #D96F32;
+    font-size: 16px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #3B060A;
+}
+
+table {
+    border: none;
+    margin-bottom: 10px;
+}
+
+td {
+    border: none;
+    border-bottom: 1px solid #f1f5f9;
+    padding: 11px 8px;
+    font-size: 14px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+td:first-child {
+    color: #1e293b;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 96%;
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+    background-color: #f8fafc;
+    box-sizing: border-box;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3B060A;
+    background-color: #ffffff;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #3B060A;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+td label {
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+p {
+    line-height: 1.9;
+}
+
+input[type="file"] {
+    font-size: 13px;
+    color: #475569;
+}
+
+input[type="submit"] {
+    background-color: #3B060A;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 26px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #b10311;
+}
