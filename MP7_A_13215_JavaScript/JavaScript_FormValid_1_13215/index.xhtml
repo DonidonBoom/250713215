@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <title>Form Pendaftaran Eksul (XHTML)</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript">
+        function fn_ValFrom() {
+            var sMsg = "";
+
+            if (document.getElementById("Nama").value == "") {
+                sMsg += "\n* anda belum mengisikan nama";
+            }
+
+            if (document.getElementById("Kelas").value == "") {
+                sMsg += "\n* anda belum mengisikan kelas";
+            }
+
+            if (document.getElementById("Alasan").value == "") {
+                sMsg += "\n* anda belum mengisikan alasan";
+            }
+
+            if (sMsg != "") {
+                alert("Peringatan: \n" + sMsg);
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Form Pendaftaran Eksul</h1>
+    <form action="#" method="post" onsubmit="return fn_ValFrom();">
+        <p>Nama: <input type="text" name="Nama" id="Nama" /></p>
+        <p>Kelas: <input type="text" name="Kelas" id="Kelas" /></p>
+        <p>Alasan Bergabung: 
+            <br /><textarea name="Alasan" id="Alasan" rows="4" cols="30"></textarea></p>
+        <p><input type="submit" value="Daftar" /></p>
+    </form>
+</body>
+
+</html>
