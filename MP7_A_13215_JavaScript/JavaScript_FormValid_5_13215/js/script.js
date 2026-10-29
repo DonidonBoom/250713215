@@ -13,6 +13,8 @@ function fn_ValFrom() {
 
         if (document.getElementById("Umur").value == "") {
             sMsg += "\n* anda belum mengisikan umur";
+        }else if(isNaN(umur)){
+            sMsg += "\n* umur harus berupa angka";
         }else{
             var umur = parseInt(document.getElementById("Umur").value);
             if(umur >= 10 && umur <= 18){
